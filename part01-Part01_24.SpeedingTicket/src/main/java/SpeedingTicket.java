@@ -10,7 +10,7 @@ public class SpeedingTicket {
         System.out.println("Give speed:");
         int speed = Integer.valueOf(scanner.nextLine());
         
-        if (speed > 20){
+        if (speed > 120){
             System.out.println("Speeding ticket!");
         }
     }
