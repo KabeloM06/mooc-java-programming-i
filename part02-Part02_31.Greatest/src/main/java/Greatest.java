@@ -3,8 +3,18 @@ public class Greatest {
 
     public static int greatest(int number1, int number2, int number3) {
         //write some code here
-
-        return -1;
+        int highest = number1;
+        if (number1 > highest){
+            highest = number1;
+        }
+        if (number2 > highest){
+            highest = number2;
+        }
+        if (number3 > highest){
+            highest = number3;
+        }
+        
+        return highest;
     }
 
     public static void main(String[] args) {
