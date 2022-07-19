@@ -17,6 +17,6 @@ public class ThirdElement {
             list.add(input);
         }
 
-        System.out.println(list.get(2));
+        System.out.println(lists.get(0));
     }
 }
