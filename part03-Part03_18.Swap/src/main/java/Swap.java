@@ -22,7 +22,17 @@ public class Swap {
         // Implement here
         // asking for the two indices
         // and then swapping them
+        System.out.println("Which index should we access first? ");
+        int first = Integer.valueOf(scanner.nextLine());
+        System.out.println("Which index should we access second? ");
+        int second = Integer.valueOf(scanner.nextLine());
+        
+        // swapping the inices
+        int temp = array[first];
+        array[first] = array[second];
+        array[second] = temp;
 
+        // Printing the new array
         System.out.println("");
         index = 0;
         while (index < array.length) {
