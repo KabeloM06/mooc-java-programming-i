@@ -9,5 +9,16 @@ public class ArrayPrinter {
 
     public static void printNeatly(int[] array) {
         // Write some code in here
+        int index = 0;
+        // Print numbers
+        while (index < array.length){
+            System.out.print(array[index]);
+            
+            //add spaces and commas
+            if (index < array.length-1){
+                System.out.print(", ");
+            }
+            index++;
+        }
     }
 }
